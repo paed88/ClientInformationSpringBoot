@@ -1,0 +1,1219 @@
+2026-04-05T17:50:50.563+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 1508 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T17:50:50.567+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T17:50:50.637+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T17:50:50.638+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T17:50:51.517+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T17:50:51.575+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2026-04-05T17:50:52.533+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T17:50:52.548+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T17:50:52.549+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T17:50:52.606+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T17:50:52.607+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1967 ms
+2026-04-05T17:50:52.893+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T17:50:52.945+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T17:50:52.975+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T17:50:53.259+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T17:50:53.291+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T17:50:53.749+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: fe7d51da-3b3c-4e83-9ad9-afed21ef7606
+2026-04-05T17:50:53.751+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T17:50:53.893+08:00  WARN 1508 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T17:50:53.922+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T17:50:54.668+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T17:50:55.334+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T17:50:55.853+08:00  WARN 1508 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T17:50:56.191+08:00  WARN 1508 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7e45e73f-df1b-4018-864c-15cc5cb21618
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T17:50:56.202+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T17:50:56.812+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T17:50:56.851+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T17:50:56.864+08:00  INFO 1508 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 6.856 seconds (process running for 7.354)
+2026-04-05T17:50:56.867+08:00  WARN 1508 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T17:50:56.867+08:00  WARN 1508 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T17:51:52.431+08:00  INFO 1508 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T17:51:52.557+08:00  INFO 1508 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T17:51:52.560+08:00  INFO 1508 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T17:51:52.564+08:00  INFO 1508 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T17:51:52.570+08:00  INFO 1508 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T17:51:54.397+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 6840 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T17:51:54.402+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T17:51:54.474+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T17:51:54.474+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T17:51:55.430+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T17:51:55.507+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2026-04-05T17:51:56.495+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T17:51:56.510+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T17:51:56.510+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T17:51:56.566+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T17:51:56.566+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2091 ms
+2026-04-05T17:51:56.876+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T17:51:56.931+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T17:51:56.960+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T17:51:57.225+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T17:51:57.247+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T17:51:57.707+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: a9cff2b6-4b0e-4079-a85f-42c7cbc94577
+2026-04-05T17:51:57.710+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T17:51:57.845+08:00  WARN 6840 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T17:51:57.877+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T17:51:58.637+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T17:51:59.374+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T17:51:59.887+08:00  WARN 6840 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T17:52:00.229+08:00  WARN 6840 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9825c67e-781f-437f-828f-5ba9c62f27c5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T17:52:00.241+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T17:52:00.841+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T17:52:00.900+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T17:52:00.914+08:00  INFO 6840 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 7.033 seconds (process running for 7.545)
+2026-04-05T17:52:00.918+08:00  WARN 6840 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T17:52:00.920+08:00  WARN 6840 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T17:53:07.343+08:00  INFO 6840 --- [BankingCardClient] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-05T17:53:07.343+08:00  INFO 6840 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-05T17:53:07.345+08:00  INFO 6840 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-04-05T17:53:08.402+08:00  INFO 6840 --- [BankingCardClient] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 536 ms
+2026-04-05T17:53:13.828+08:00  INFO 6840 --- [BankingCardClient] [http-nio-8080-exec-10] c.e.c.client.aspect.LoggingAspect        : 🛠️ Executing: getAllUsersPaged with arguments: [Page request [number: 0, size 10, sort: UNSORTED]]
+2026-04-05T17:53:14.118+08:00  INFO 6840 --- [BankingCardClient] [http-nio-8080-exec-10] c.e.c.client.aspect.LoggingAspect        : ✅ Finished: getAllUsersPaged. Result: Page 1 of 1 containing com.example.clientsystem.client.model.UserInformation instances
+2026-04-05T17:53:14.123+08:00  WARN 6840 --- [BankingCardClient] [http-nio-8080-exec-10] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-04-05T18:00:53.292+08:00  INFO 6840 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T18:00:53.421+08:00  INFO 6840 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T18:00:53.425+08:00  INFO 6840 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T18:00:53.429+08:00  INFO 6840 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T18:00:53.434+08:00  INFO 6840 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T18:00:56.742+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 14820 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T18:00:56.745+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T18:00:56.821+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T18:00:56.821+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T18:00:57.704+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T18:00:57.770+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2026-04-05T18:00:58.708+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T18:00:58.722+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T18:00:58.722+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T18:00:58.785+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T18:00:58.786+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1964 ms
+2026-04-05T18:00:59.072+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T18:00:59.119+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T18:00:59.151+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T18:00:59.425+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T18:00:59.456+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T18:00:59.999+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: ffc494cc-e31a-4fea-ad95-7ceb11456fab
+2026-04-05T18:01:00.001+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T18:01:00.160+08:00  WARN 14820 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T18:01:00.199+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T18:01:01.261+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T18:01:01.897+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T18:01:02.453+08:00  WARN 14820 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T18:01:02.841+08:00  WARN 14820 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5ed7b18c-2600-4be1-ac10-37236165a73d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T18:01:02.852+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T18:01:03.598+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T18:01:03.674+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T18:01:03.694+08:00  INFO 14820 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 7.465 seconds (process running for 7.945)
+2026-04-05T18:01:03.699+08:00  WARN 14820 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T18:01:03.700+08:00  WARN 14820 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T18:01:07.851+08:00  INFO 14820 --- [BankingCardClient] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-05T18:01:07.851+08:00  INFO 14820 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-05T18:01:07.853+08:00  INFO 14820 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-04-05T18:01:08.884+08:00  INFO 14820 --- [BankingCardClient] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 559 ms
+2026-04-05T18:01:15.337+08:00  INFO 14820 --- [BankingCardClient] [http-nio-8080-exec-10] AOP_BUSINESS_LOG                         : >>> [METHOD START] : getAllUsersPaged
+2026-04-05T18:01:15.611+08:00  INFO 14820 --- [BankingCardClient] [http-nio-8080-exec-10] AOP_BUSINESS_LOG                         : <<< [METHOD END] : getAllUsersPaged | Data: Page 1 of 1 containing com.example.clientsystem.client.model.UserInformation instances
+2026-04-05T18:01:15.617+08:00  WARN 14820 --- [BankingCardClient] [http-nio-8080-exec-10] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-04-05T21:10:38.429+08:00  WARN 14820 --- [BankingCardClient] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h31m36s453ms796µs600ns).
+2026-04-05T21:13:43.601+08:00  INFO 14820 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T21:13:43.739+08:00  INFO 14820 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T21:13:43.739+08:00  INFO 14820 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:13:43.757+08:00  INFO 14820 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T21:13:43.762+08:00  INFO 14820 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T21:13:49.820+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 8348 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T21:13:49.824+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T21:13:49.891+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T21:13:49.892+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T21:13:50.836+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T21:13:50.900+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2026-04-05T21:13:51.904+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T21:13:51.925+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T21:13:51.926+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T21:13:51.995+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T21:13:51.995+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2102 ms
+2026-04-05T21:13:52.365+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T21:13:52.454+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T21:13:52.516+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T21:13:52.927+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T21:13:52.979+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T21:13:53.642+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: b1ec787b-283d-44b3-958a-9350a8e76779
+2026-04-05T21:13:53.649+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T21:13:53.812+08:00  WARN 8348 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T21:13:53.860+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T21:13:55.103+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T21:13:55.735+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:13:56.453+08:00  WARN 8348 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T21:13:56.869+08:00  WARN 8348 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 68768559-be91-453f-89e4-ae0aee9be8bb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T21:13:56.880+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T21:13:57.655+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T21:13:57.711+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T21:13:57.724+08:00  INFO 8348 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 8.468 seconds (process running for 8.951)
+2026-04-05T21:13:57.729+08:00  WARN 8348 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T21:13:57.730+08:00  WARN 8348 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T21:24:41.626+08:00  INFO 8348 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T21:24:41.764+08:00  INFO 8348 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T21:24:41.769+08:00  INFO 8348 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:24:41.777+08:00  INFO 8348 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T21:24:41.786+08:00  INFO 8348 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T21:24:45.708+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 26132 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T21:24:45.710+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T21:24:45.767+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T21:24:45.767+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T21:24:46.869+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T21:24:46.961+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interface.
+2026-04-05T21:24:47.967+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T21:24:47.982+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T21:24:47.984+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T21:24:48.044+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T21:24:48.044+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2275 ms
+2026-04-05T21:24:48.346+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T21:24:48.415+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T21:24:48.449+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T21:24:48.727+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T21:24:48.763+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T21:24:49.269+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 704d2f81-b317-4c2f-afcc-274d2e9e1c8f
+2026-04-05T21:24:49.270+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T21:24:49.414+08:00  WARN 26132 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T21:24:49.447+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T21:24:50.288+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T21:24:50.982+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:24:51.675+08:00  WARN 26132 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T21:24:52.006+08:00  WARN 26132 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8daf63cb-1de4-4bc4-acf9-d121dfbe08a0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T21:24:52.016+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T21:24:52.554+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T21:24:52.603+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T21:24:52.614+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 7.431 seconds (process running for 7.953)
+2026-04-05T21:24:52.618+08:00  WARN 26132 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T21:24:52.618+08:00  WARN 26132 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T21:25:00.494+08:00  INFO 26132 --- [BankingCardClient] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-05T21:25:00.496+08:00  INFO 26132 --- [BankingCardClient] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-05T21:25:00.498+08:00  INFO 26132 --- [BankingCardClient] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-04-05T21:25:01.606+08:00  INFO 26132 --- [BankingCardClient] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 622 ms
+2026-04-05T21:25:15.554+08:00  INFO 26132 --- [BankingCardClient] [http-nio-8080-exec-10] AOP_BUSINESS_LOG                         : >>> [METHOD START] : getExternalPostsByUser
+2026-04-05T21:25:15.957+08:00  INFO 26132 --- [BankingCardClient] [http-nio-8080-exec-10] AOP_BUSINESS_LOG                         : <<< [METHOD END] : getExternalPostsByUser | Items found: 10
+2026-04-05T21:30:04.779+08:00  INFO 26132 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T21:30:04.927+08:00  INFO 26132 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T21:30:04.932+08:00  INFO 26132 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:30:04.936+08:00  INFO 26132 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T21:30:04.943+08:00  INFO 26132 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T21:30:08.353+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 13756 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T21:30:08.356+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T21:30:08.417+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T21:30:08.418+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T21:30:09.414+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T21:30:09.482+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2026-04-05T21:30:10.378+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T21:30:10.390+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T21:30:10.391+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T21:30:10.449+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T21:30:10.449+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2031 ms
+2026-04-05T21:30:10.725+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T21:30:10.775+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T21:30:10.807+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T21:30:11.092+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T21:30:11.121+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T21:30:11.624+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: c222426d-3cc3-4523-b494-315f3e9f7a43
+2026-04-05T21:30:11.627+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T21:30:11.790+08:00  WARN 13756 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T21:30:11.826+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T21:30:12.642+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T21:30:13.295+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:30:13.963+08:00  WARN 13756 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T21:30:14.284+08:00  WARN 13756 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9e2d66b2-7501-4241-a6f5-4ec79e82cac0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T21:30:14.294+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T21:30:14.827+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T21:30:14.873+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T21:30:14.884+08:00  INFO 13756 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 7.039 seconds (process running for 7.493)
+2026-04-05T21:30:14.888+08:00  WARN 13756 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T21:30:14.888+08:00  WARN 13756 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T21:30:36.014+08:00  INFO 13756 --- [BankingCardClient] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-05T21:30:36.015+08:00  INFO 13756 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-05T21:30:36.019+08:00  INFO 13756 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-04-05T21:30:37.054+08:00  INFO 13756 --- [BankingCardClient] [http-nio-8080-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 618 ms
+2026-04-05T21:31:15.800+08:00  WARN 13756 --- [BankingCardClient] [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name]
+2026-04-05T21:31:55.124+08:00  INFO 13756 --- [BankingCardClient] [http-nio-8080-exec-2] AOP_BUSINESS_LOG                         : >>> [METHOD START] : patchUser
+2026-04-05T21:31:55.278+08:00  INFO 13756 --- [BankingCardClient] [http-nio-8080-exec-2] AOP_BUSINESS_LOG                         : <<< [METHOD END] : patchUser | Data: UserInformation(id=1, title=Mr, fullName=Muhammad Faiz bin Zakaria, gender=Male, idType=MyKad, idNumber=881209010203, nationality=Malaysian, emailAddress=mu.faiz.z@gmail.com, homeAddress=Taman Rafflesia 3, Seksyen 29, postcode=40460, district=Shah Alam, state=Selangor, country=Malaysia, mobileNumber=+60174425432, createdAt=2026-04-05T17:41:17.115772200, createdBy=1, updatedAt=null, updatedBy=99)
+2026-04-05T21:33:26.332+08:00  INFO 13756 --- [BankingCardClient] [http-nio-8080-exec-6] AOP_BUSINESS_LOG                         : >>> [METHOD START] : getAllUsersPaged
+2026-04-05T21:33:26.487+08:00  INFO 13756 --- [BankingCardClient] [http-nio-8080-exec-6] AOP_BUSINESS_LOG                         : <<< [METHOD END] : getAllUsersPaged | Data: Page 1 of 1 containing com.example.clientsystem.client.model.UserInformation instances
+2026-04-05T21:33:26.492+08:00  WARN 13756 --- [BankingCardClient] [http-nio-8080-exec-6] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-04-05T21:38:19.485+08:00  INFO 13756 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T21:38:19.611+08:00  INFO 13756 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T21:38:19.615+08:00  INFO 13756 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:38:19.620+08:00  INFO 13756 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T21:38:19.624+08:00  INFO 13756 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T21:38:23.127+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 26132 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T21:38:23.130+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T21:38:23.195+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T21:38:23.195+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T21:38:24.195+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T21:38:24.260+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2026-04-05T21:38:25.278+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T21:38:25.298+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T21:38:25.299+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T21:38:25.378+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T21:38:25.379+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2183 ms
+2026-04-05T21:38:25.958+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T21:38:26.044+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T21:38:26.126+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T21:38:26.809+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T21:38:26.847+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T21:38:27.444+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: a4da7de3-f179-4960-822e-067afcc2bf30
+2026-04-05T21:38:27.446+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T21:38:27.596+08:00  WARN 26132 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T21:38:27.624+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T21:38:28.506+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T21:38:29.280+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:38:29.935+08:00  WARN 26132 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T21:38:30.234+08:00  WARN 26132 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6ec4bdc1-1d97-43da-85a3-232287ae3aae
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T21:38:30.242+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T21:38:30.771+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T21:38:30.818+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T21:38:30.830+08:00  INFO 26132 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 8.245 seconds (process running for 8.722)
+2026-04-05T21:38:30.835+08:00  WARN 26132 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T21:38:30.835+08:00  WARN 26132 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T21:38:51.461+08:00  INFO 26132 --- [BankingCardClient] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-05T21:38:51.462+08:00  INFO 26132 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-05T21:38:51.466+08:00  INFO 26132 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-04-05T21:38:52.451+08:00  INFO 26132 --- [BankingCardClient] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 544 ms
+2026-04-05T21:39:20.311+08:00  INFO 26132 --- [BankingCardClient] [http-nio-8080-exec-10] AOP_BUSINESS_LOG                         : >>> [METHOD START] : patchUser
+2026-04-05T21:39:20.437+08:00  INFO 26132 --- [BankingCardClient] [http-nio-8080-exec-10] AOP_BUSINESS_LOG                         : <<< [METHOD END] : patchUser | Data: UserInformation(id=1, title=Mr, fullName=Muhammad Faiz bin Zakaria, gender=Male, idType=MyKad, idNumber=881209010203, nationality=Malaysian, emailAddress=mu.faiz.z@gmail.com, homeAddress=Taman Rafflesia 3, Seksyen 29, postcode=40460, district=Shah Alam, state=Selangor, country=Malaysia, mobileNumber=+60174425432, createdAt=2026-04-05T17:41:17.115772200, createdBy=1, updatedAt=null, updatedBy=99)
+2026-04-05T21:39:43.268+08:00  INFO 26132 --- [BankingCardClient] [http-nio-8080-exec-1] AOP_BUSINESS_LOG                         : >>> [METHOD START] : getAllUsersPaged
+2026-04-05T21:39:43.384+08:00  INFO 26132 --- [BankingCardClient] [http-nio-8080-exec-1] AOP_BUSINESS_LOG                         : <<< [METHOD END] : getAllUsersPaged | Data: Page 1 of 1 containing com.example.clientsystem.client.model.UserInformation instances
+2026-04-05T21:39:43.388+08:00  WARN 26132 --- [BankingCardClient] [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-04-05T21:42:26.488+08:00  INFO 26132 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T21:42:26.624+08:00  INFO 26132 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T21:42:26.629+08:00  INFO 26132 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:42:26.633+08:00  INFO 26132 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T21:42:26.638+08:00  INFO 26132 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T21:42:30.164+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 24096 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T21:42:30.167+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T21:42:30.233+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T21:42:30.233+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T21:42:31.200+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T21:42:31.269+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2026-04-05T21:42:32.162+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T21:42:32.176+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T21:42:32.176+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T21:42:32.238+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T21:42:32.239+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2006 ms
+2026-04-05T21:42:32.563+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T21:42:32.612+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T21:42:32.638+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T21:42:32.885+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T21:42:32.915+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T21:42:33.384+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 948db05d-caa1-4208-a6d2-789d357ea651
+2026-04-05T21:42:33.385+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T21:42:33.535+08:00  WARN 24096 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T21:42:33.560+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T21:42:34.339+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T21:42:35.031+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:42:35.699+08:00  WARN 24096 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T21:42:36.009+08:00  WARN 24096 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9b09883c-b004-4b4c-9d78-49f1b031cba6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T21:42:36.017+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T21:42:36.544+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T21:42:36.589+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T21:42:36.601+08:00  INFO 24096 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 6.975 seconds (process running for 7.487)
+2026-04-05T21:42:36.605+08:00  WARN 24096 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T21:42:36.605+08:00  WARN 24096 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T21:43:07.626+08:00  INFO 24096 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T21:43:07.750+08:00  INFO 24096 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T21:43:07.754+08:00  INFO 24096 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:43:07.758+08:00  INFO 24096 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T21:43:07.765+08:00  INFO 24096 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T21:43:10.197+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 25524 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T21:43:10.201+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T21:43:10.279+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T21:43:10.279+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T21:43:11.279+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T21:43:11.337+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2026-04-05T21:43:12.317+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T21:43:12.346+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T21:43:12.347+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T21:43:12.475+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T21:43:12.476+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2196 ms
+2026-04-05T21:43:13.150+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T21:43:13.266+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T21:43:13.341+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T21:43:13.982+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T21:43:14.039+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T21:43:14.802+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 3b35ad17-a75f-465b-ac54-21c15ae3a1ba
+2026-04-05T21:43:14.804+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T21:43:14.861+08:00  WARN 25524 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T21:43:14.898+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T21:43:16.437+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T21:43:16.580+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:43:17.572+08:00  WARN 25524 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T21:43:18.047+08:00  WARN 25524 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8a826e8a-3949-4f5b-beaf-3262d66ff80d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T21:43:18.061+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T21:43:19.122+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T21:43:19.217+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T21:43:19.239+08:00  INFO 25524 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 9.625 seconds (process running for 10.147)
+2026-04-05T21:43:19.248+08:00  WARN 25524 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T21:43:19.249+08:00  WARN 25524 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T21:43:19.513+08:00  INFO 25524 --- [BankingCardClient] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-05T21:43:19.514+08:00  INFO 25524 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-05T21:43:19.519+08:00  INFO 25524 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-04-05T21:43:20.624+08:00  INFO 25524 --- [BankingCardClient] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 600 ms
+2026-04-05T21:43:45.834+08:00  INFO 25524 --- [BankingCardClient] [http-nio-8080-exec-10] AOP_BUSINESS_LOG                         : >>> [METHOD START] : patchUser
+2026-04-05T21:43:45.959+08:00  INFO 25524 --- [BankingCardClient] [http-nio-8080-exec-10] AOP_BUSINESS_LOG                         : <<< [METHOD END] : patchUser | Data: UserInformation(id=1, title=YB, fullName=Muhammad Faiz bin Zakaria, gender=Male, idType=MyKad, idNumber=881209010203, nationality=Malaysian, emailAddress=mu.faiz.z@gmail.com, homeAddress=Taman Rafflesia 3, Seksyen 29, postcode=40460, district=Shah Alam, state=Selangor, country=Malaysia, mobileNumber=+60174425432, createdAt=2026-04-05T17:41:17.115772200, createdBy=1, updatedAt=null, updatedBy=99)
+2026-04-05T21:43:54.148+08:00  INFO 25524 --- [BankingCardClient] [http-nio-8080-exec-1] AOP_BUSINESS_LOG                         : >>> [METHOD START] : getAllUsersPaged
+2026-04-05T21:43:54.283+08:00  INFO 25524 --- [BankingCardClient] [http-nio-8080-exec-1] AOP_BUSINESS_LOG                         : <<< [METHOD END] : getAllUsersPaged | Data: Page 1 of 1 containing com.example.clientsystem.client.model.UserInformation instances
+2026-04-05T21:43:54.285+08:00  WARN 25524 --- [BankingCardClient] [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-04-05T21:45:37.026+08:00  WARN 25524 --- [BankingCardClient] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.clientsystem.client.model.UserInformation> com.example.clientsystem.client.controller.UserController.createUser(com.example.clientsystem.client.dto.UserRequestDTO): [Field error in object 'userRequestDTO' on field 'fullName': rejected value []; codes [NotBlank.userRequestDTO.fullName,NotBlank.fullName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userRequestDTO.fullName,fullName]; arguments []; default message [fullName]]; default message [Full name is required]] ]
+2026-04-05T21:48:26.556+08:00  INFO 25524 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T21:48:26.693+08:00  INFO 25524 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T21:48:26.699+08:00  INFO 25524 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:48:26.709+08:00  INFO 25524 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T21:48:26.717+08:00  INFO 25524 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T21:48:30.451+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 19740 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T21:48:30.456+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T21:48:30.551+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T21:48:30.552+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T21:48:31.574+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T21:48:31.634+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2026-04-05T21:48:32.877+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T21:48:32.926+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T21:48:32.927+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T21:48:33.072+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T21:48:33.074+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2521 ms
+2026-04-05T21:48:33.690+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T21:48:33.807+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T21:48:33.907+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T21:48:34.458+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T21:48:34.537+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T21:48:35.410+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 3821572e-1b5d-40d1-a1fb-41fc459dbe67
+2026-04-05T21:48:35.415+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T21:48:35.641+08:00  WARN 19740 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T21:48:35.680+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T21:48:37.216+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T21:48:37.914+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:48:38.903+08:00  WARN 19740 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T21:48:39.555+08:00  WARN 19740 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ea671d37-e353-48c5-b29d-5e5ccf33d98b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T21:48:39.570+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T21:48:40.707+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T21:48:40.762+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T21:48:40.780+08:00  INFO 19740 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 10.951 seconds (process running for 11.438)
+2026-04-05T21:48:40.784+08:00  WARN 19740 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T21:48:40.785+08:00  WARN 19740 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T21:50:11.143+08:00  INFO 19740 --- [BankingCardClient] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-05T21:50:11.144+08:00  INFO 19740 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-05T21:50:11.146+08:00  INFO 19740 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-04-05T21:50:11.485+08:00  INFO 19740 --- [BankingCardClient] [http-nio-8080-exec-1] AOP_BUSINESS_LOG                         : >>> [METHOD START] : createUser
+2026-04-05T21:50:11.642+08:00  INFO 19740 --- [BankingCardClient] [http-nio-8080-exec-1] AOP_BUSINESS_LOG                         : <<< [METHOD END] : createUser | Data: UserInformation(id=2, title=Mrs, fullName=Kompany Murshid, gender=Female, idType=Mykad, idNumber=900910011234, nationality=Malaysian, emailAddress=company_mur@example.com, homeAddress=Parit Raja, postcode=151515, district=Johor Bahru, state=Johor, country=Malaysia, mobileNumber=+60174425431, createdAt=2026-04-05T21:50:11.509972300, createdBy=1, updatedAt=null, updatedBy=1)
+2026-04-05T21:50:39.307+08:00  WARN 19740 --- [BankingCardClient] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.clientsystem.client.model.UserInformation> com.example.clientsystem.client.controller.UserController.createUser(com.example.clientsystem.client.dto.UserRequestDTO): [Field error in object 'userRequestDTO' on field 'fullName': rejected value []; codes [NotBlank.userRequestDTO.fullName,NotBlank.fullName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userRequestDTO.fullName,fullName]; arguments []; default message [fullName]]; default message [Full name is required]] ]
+2026-04-05T21:52:36.377+08:00  INFO 19740 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T21:52:36.500+08:00  INFO 19740 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T21:52:36.504+08:00  INFO 19740 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:52:36.508+08:00  INFO 19740 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T21:52:36.515+08:00  INFO 19740 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T21:52:39.502+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 6768 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T21:52:39.505+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T21:52:39.557+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T21:52:39.557+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T21:52:40.489+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T21:52:40.549+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2026-04-05T21:52:41.449+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T21:52:41.463+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T21:52:41.463+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T21:52:41.525+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T21:52:41.525+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1967 ms
+2026-04-05T21:52:41.809+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T21:52:41.858+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T21:52:41.899+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T21:52:42.187+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T21:52:42.217+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T21:52:42.704+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: b1a975cb-fcaa-4365-872e-afdbf30056ec
+2026-04-05T21:52:42.706+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T21:52:42.842+08:00  WARN 6768 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T21:52:42.868+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T21:52:43.620+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T21:52:44.260+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T21:52:44.943+08:00  WARN 6768 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T21:52:45.278+08:00  WARN 6768 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 84e01d8a-f390-44f9-982c-8ff19b680607
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T21:52:45.289+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T21:52:45.817+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T21:52:45.858+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T21:52:45.872+08:00  INFO 6768 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 6.871 seconds (process running for 7.326)
+2026-04-05T21:52:45.875+08:00  WARN 6768 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T21:52:45.875+08:00  WARN 6768 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T21:53:03.877+08:00  INFO 6768 --- [BankingCardClient] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-05T21:53:03.878+08:00  INFO 6768 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-05T21:53:03.881+08:00  INFO 6768 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-04-05T21:53:04.895+08:00  INFO 6768 --- [BankingCardClient] [http-nio-8080-exec-6] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 592 ms
+2026-04-05T21:53:16.743+08:00  WARN 6768 --- [BankingCardClient] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.clientsystem.client.model.UserInformation> com.example.clientsystem.client.controller.UserController.createUser(com.example.clientsystem.client.dto.UserRequestDTO): [Field error in object 'userRequestDTO' on field 'fullName': rejected value []; codes [NotBlank.userRequestDTO.fullName,NotBlank.fullName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userRequestDTO.fullName,fullName]; arguments []; default message [fullName]]; default message [Full name is required]] ]
+2026-04-05T22:19:12.874+08:00  INFO 6768 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T22:19:13.019+08:00  INFO 6768 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T22:19:13.024+08:00  INFO 6768 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T22:19:13.028+08:00  INFO 6768 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T22:19:13.031+08:00  INFO 6768 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T22:19:18.085+08:00  INFO 25352 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 25352 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T22:19:18.088+08:00  INFO 25352 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T22:19:18.142+08:00  INFO 25352 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T22:19:18.142+08:00  INFO 25352 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T22:19:18.313+08:00  WARN 25352 --- [BankingCardClient] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.clientsystem.client.ClientApplication]
+2026-04-05T22:19:18.500+08:00 ERROR 25352 --- [BankingCardClient] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.clientsystem.client.ClientApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:792) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:610) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.13.jar:3.5.13]
+	at com.example.clientsystem.client.ClientApplication.main(ClientApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.13.jar:3.5.13]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'securityConfig' for bean class [com.example.clientsystem.client.security.SecurityConfig] conflicts with existing, non-compatible bean definition of same name and class [com.example.clientsystem.client.config.SecurityConfig]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172) ~[spring-context-6.2.17.jar:6.2.17]
+	... 18 common frames omitted
+
+2026-04-05T22:23:17.252+08:00  INFO 4072 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 4072 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T22:23:17.255+08:00  INFO 4072 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T22:23:17.307+08:00  INFO 4072 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T22:23:17.307+08:00  INFO 4072 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T22:23:17.478+08:00  WARN 4072 --- [BankingCardClient] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.clientsystem.client.ClientApplication]
+2026-04-05T22:23:17.652+08:00 ERROR 4072 --- [BankingCardClient] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.clientsystem.client.ClientApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:792) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:610) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.13.jar:3.5.13]
+	at com.example.clientsystem.client.ClientApplication.main(ClientApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.13.jar:3.5.13]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'securityConfig' for bean class [com.example.clientsystem.client.security.SecurityConfig] conflicts with existing, non-compatible bean definition of same name and class [com.example.clientsystem.client.config.SecurityConfig]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172) ~[spring-context-6.2.17.jar:6.2.17]
+	... 18 common frames omitted
+
+2026-04-05T22:24:24.955+08:00  INFO 19648 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 19648 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T22:24:24.959+08:00  INFO 19648 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T22:24:25.022+08:00  INFO 19648 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T22:24:25.022+08:00  INFO 19648 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T22:24:25.201+08:00  WARN 19648 --- [BankingCardClient] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.clientsystem.client.ClientApplication]
+2026-04-05T22:24:25.387+08:00 ERROR 19648 --- [BankingCardClient] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.clientsystem.client.ClientApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:792) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:610) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.13.jar:3.5.13]
+	at com.example.clientsystem.client.ClientApplication.main(ClientApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.13.jar:3.5.13]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'securityConfig' for bean class [com.example.clientsystem.client.security.SecurityConfig] conflicts with existing, non-compatible bean definition of same name and class [com.example.clientsystem.client.config.SecurityConfig]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172) ~[spring-context-6.2.17.jar:6.2.17]
+	... 18 common frames omitted
+
+2026-04-05T22:24:29.716+08:00  INFO 17776 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 17776 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T22:24:29.718+08:00  INFO 17776 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T22:24:29.785+08:00  INFO 17776 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T22:24:29.786+08:00  INFO 17776 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T22:24:29.975+08:00  WARN 17776 --- [BankingCardClient] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.clientsystem.client.ClientApplication]
+2026-04-05T22:24:30.159+08:00 ERROR 17776 --- [BankingCardClient] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.clientsystem.client.ClientApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:792) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:610) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.13.jar:3.5.13]
+	at com.example.clientsystem.client.ClientApplication.main(ClientApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.13.jar:3.5.13]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'securityConfig' for bean class [com.example.clientsystem.client.security.SecurityConfig] conflicts with existing, non-compatible bean definition of same name and class [com.example.clientsystem.client.config.SecurityConfig]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172) ~[spring-context-6.2.17.jar:6.2.17]
+	... 18 common frames omitted
+
+2026-04-05T22:24:45.364+08:00  INFO 10952 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 10952 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T22:24:45.368+08:00  INFO 10952 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T22:24:45.430+08:00  INFO 10952 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T22:24:45.431+08:00  INFO 10952 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T22:24:45.624+08:00  WARN 10952 --- [BankingCardClient] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.clientsystem.client.ClientApplication]
+2026-04-05T22:24:45.799+08:00 ERROR 10952 --- [BankingCardClient] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.clientsystem.client.ClientApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:792) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:610) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.13.jar:3.5.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.13.jar:3.5.13]
+	at com.example.clientsystem.client.ClientApplication.main(ClientApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.13.jar:3.5.13]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'securityConfig' for bean class [com.example.clientsystem.client.security.SecurityConfig] conflicts with existing, non-compatible bean definition of same name and class [com.example.clientsystem.client.config.SecurityConfig]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204) ~[spring-context-6.2.17.jar:6.2.17]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172) ~[spring-context-6.2.17.jar:6.2.17]
+	... 18 common frames omitted
+
+2026-04-05T22:27:01.661+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 5044 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T22:27:01.664+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T22:27:01.737+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T22:27:01.737+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T22:27:02.704+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T22:27:02.771+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2026-04-05T22:27:03.732+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T22:27:03.754+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T22:27:03.754+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T22:27:03.832+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T22:27:03.832+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2094 ms
+2026-04-05T22:27:04.132+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T22:27:04.189+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T22:27:04.230+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T22:27:04.507+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T22:27:04.538+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T22:27:05.042+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: c445afdf-935f-427f-8000-bd9cc45724fa
+2026-04-05T22:27:05.043+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T22:27:05.181+08:00  WARN 5044 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T22:27:05.206+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T22:27:05.998+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T22:27:06.618+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T22:27:07.329+08:00  WARN 5044 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T22:27:07.686+08:00  WARN 5044 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 4e0d4fcd-3a40-4dfc-b6c4-68644bd06cce
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T22:27:07.696+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T22:27:08.463+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T22:27:08.530+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T22:27:08.544+08:00  INFO 5044 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 7.467 seconds (process running for 8.292)
+2026-04-05T22:27:08.548+08:00  WARN 5044 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T22:27:08.548+08:00  WARN 5044 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T22:27:18.291+08:00  INFO 5044 --- [BankingCardClient] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-05T22:27:18.292+08:00  INFO 5044 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-05T22:27:18.294+08:00  INFO 5044 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-04-05T22:27:19.326+08:00  INFO 5044 --- [BankingCardClient] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 597 ms
+2026-04-05T22:28:49.411+08:00 ERROR 5044 --- [BankingCardClient] [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: io.jsonwebtoken.io.DecodingException: Illegal base64 character: '_'] with root cause
+
+io.jsonwebtoken.io.DecodingException: Illegal base64 character: '_'
+	at io.jsonwebtoken.io.Base64.ctoi(Base64.java:221) ~[jjwt-api-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.io.Base64.decodeFast(Base64.java:270) ~[jjwt-api-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.io.Base64Decoder.decode(Base64Decoder.java:36) ~[jjwt-api-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.io.Base64Decoder.decode(Base64Decoder.java:23) ~[jjwt-api-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.io.ExceptionPropagatingDecoder.decode(ExceptionPropagatingDecoder.java:36) ~[jjwt-api-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.DefaultJwtBuilder.signWith(DefaultJwtBuilder.java:132) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at com.example.clientsystem.client.security.JwtUtils.generateToken(JwtUtils.java:20) ~[classes/:na]
+	at com.example.clientsystem.client.controller.AuthController.login(AuthController.java:23) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.17.jar:6.2.17]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.17.jar:6.2.17]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.17.jar:6.2.17]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.17.jar:6.2.17]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.17.jar:6.2.17]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.17.jar:6.2.17]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.17.jar:6.2.17]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.17.jar:6.2.17]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.53.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.17.jar:6.2.17]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.53.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.53.jar:10.1.53]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at com.example.clientsystem.client.security.JwtFilter.doFilterInternal(JwtFilter.java:35) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.9.jar:6.5.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.9.jar:6.5.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.17.jar:6.2.17]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.9.jar:6.5.9]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.17.jar:6.2.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.53.jar:10.1.53]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-04-05T22:29:56.151+08:00  INFO 5044 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T22:29:56.282+08:00  INFO 5044 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T22:29:56.286+08:00  INFO 5044 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T22:29:56.289+08:00  INFO 5044 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T22:29:56.293+08:00  INFO 5044 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T22:30:00.598+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 25824 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T22:30:00.600+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T22:30:00.667+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T22:30:00.667+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T22:30:01.607+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T22:30:01.679+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
+2026-04-05T22:30:02.585+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T22:30:02.602+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T22:30:02.602+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T22:30:02.651+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T22:30:02.651+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1984 ms
+2026-04-05T22:30:02.925+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T22:30:02.982+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T22:30:03.019+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T22:30:03.310+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T22:30:03.340+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T22:30:03.943+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: e0060faa-b933-4f64-a057-bed67350e9de
+2026-04-05T22:30:03.945+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T22:30:04.099+08:00  WARN 25824 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T22:30:04.126+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T22:30:05.020+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T22:30:05.694+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T22:30:06.378+08:00  WARN 25824 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T22:30:06.697+08:00  WARN 25824 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c346ba85-b75f-41a7-9ce4-233b69b850a3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T22:30:06.715+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T22:30:07.257+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T22:30:07.305+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T22:30:07.315+08:00  INFO 25824 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 7.221 seconds (process running for 7.707)
+2026-04-05T22:30:07.317+08:00  WARN 25824 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T22:30:07.319+08:00  WARN 25824 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T22:30:15.300+08:00  INFO 25824 --- [BankingCardClient] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-05T22:30:15.300+08:00  INFO 25824 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-05T22:30:15.302+08:00  INFO 25824 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-04-05T22:30:16.382+08:00  INFO 25824 --- [BankingCardClient] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 630 ms
+2026-04-05T22:30:36.381+08:00  WARN 25824 --- [BankingCardClient] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected end-of-input: expected close marker for Object (start marker at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1])]
+2026-04-05T22:35:09.190+08:00  INFO 25824 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T22:35:09.310+08:00  INFO 25824 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T22:35:09.318+08:00  INFO 25824 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T22:35:09.318+08:00  INFO 25824 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T22:35:09.328+08:00  INFO 25824 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T22:35:12.570+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 23504 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T22:35:12.573+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T22:35:12.641+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T22:35:12.641+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T22:35:13.587+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T22:35:13.649+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2026-04-05T22:35:14.590+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T22:35:14.606+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T22:35:14.607+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T22:35:14.668+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T22:35:14.668+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2026 ms
+2026-04-05T22:35:15.039+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T22:35:15.107+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T22:35:15.149+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T22:35:15.488+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T22:35:15.514+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T22:35:16.014+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: a0894793-0433-4699-8b6e-d57c4d5a92b1
+2026-04-05T22:35:16.018+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T22:35:16.138+08:00  WARN 23504 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T22:35:16.174+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T22:35:16.899+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T22:35:17.628+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T22:35:18.393+08:00  WARN 23504 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T22:35:18.740+08:00  WARN 23504 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a32acfcd-26fc-4cf8-a758-842ed4031fff
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T22:35:18.751+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T22:35:19.320+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T22:35:19.361+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T22:35:19.371+08:00  INFO 23504 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 7.314 seconds (process running for 7.794)
+2026-04-05T22:35:19.374+08:00  WARN 23504 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T22:35:19.374+08:00  WARN 23504 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T22:35:32.468+08:00  INFO 23504 --- [BankingCardClient] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-05T22:35:32.468+08:00  INFO 23504 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-05T22:35:32.468+08:00  INFO 23504 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-04-05T22:35:33.601+08:00  INFO 23504 --- [BankingCardClient] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 696 ms
+2026-04-05T22:39:01.260+08:00  INFO 23504 --- [BankingCardClient] [http-nio-8080-exec-10] AOP_BUSINESS_LOG                         : >>> [METHOD START] : getAllUsersPaged
+2026-04-05T22:39:01.493+08:00  INFO 23504 --- [BankingCardClient] [http-nio-8080-exec-10] AOP_BUSINESS_LOG                         : <<< [METHOD END] : getAllUsersPaged | Data: Page 1 of 1 containing com.example.clientsystem.client.model.UserInformation instances
+2026-04-05T22:39:01.497+08:00  WARN 23504 --- [BankingCardClient] [http-nio-8080-exec-10] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-04-05T22:43:40.316+08:00  INFO 23504 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T22:43:40.446+08:00  INFO 23504 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T22:43:40.451+08:00  INFO 23504 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T22:43:40.459+08:00  INFO 23504 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T22:43:40.465+08:00  INFO 23504 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T22:43:43.880+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 23468 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T22:43:43.884+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T22:43:43.950+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T22:43:43.951+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T22:43:44.905+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T22:43:44.976+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
+2026-04-05T22:43:45.969+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T22:43:45.984+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T22:43:45.984+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T22:43:46.036+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T22:43:46.036+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2085 ms
+2026-04-05T22:43:46.398+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T22:43:46.451+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T22:43:46.487+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T22:43:46.812+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T22:43:46.850+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T22:43:47.352+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: e7a88c3d-5ceb-4451-a06b-abeb7e22e94e
+2026-04-05T22:43:47.353+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T22:43:47.496+08:00  WARN 23468 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T22:43:47.529+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T22:43:48.522+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T22:43:49.140+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T22:43:49.870+08:00  WARN 23468 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T22:43:50.248+08:00  WARN 23468 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b066466a-f74e-4c3d-a6a5-409f3c3de240
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T22:43:50.256+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T22:43:51.031+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T22:43:51.080+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T22:43:51.098+08:00  INFO 23468 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 7.768 seconds (process running for 8.264)
+2026-04-05T22:43:51.103+08:00  WARN 23468 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T22:43:51.103+08:00  WARN 23468 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T22:44:02.382+08:00  INFO 23468 --- [BankingCardClient] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-05T22:44:02.382+08:00  INFO 23468 --- [BankingCardClient] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-05T22:44:02.384+08:00  INFO 23468 --- [BankingCardClient] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-04-05T22:44:03.485+08:00  INFO 23468 --- [BankingCardClient] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 587 ms
+2026-04-05T22:52:46.738+08:00  INFO 23468 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T22:52:46.865+08:00  INFO 23468 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T22:52:46.869+08:00  INFO 23468 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T22:52:46.873+08:00  INFO 23468 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T22:52:46.878+08:00  INFO 23468 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T22:52:50.361+08:00  INFO 536 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 536 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T22:52:50.363+08:00  INFO 536 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T22:52:50.423+08:00  INFO 536 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T22:52:50.423+08:00  INFO 536 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T22:52:51.381+08:00  INFO 536 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T22:52:51.440+08:00  INFO 536 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2026-04-05T22:52:52.507+08:00  INFO 536 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T22:52:52.525+08:00  INFO 536 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T22:52:52.525+08:00  INFO 536 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T22:52:52.578+08:00  INFO 536 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T22:52:52.579+08:00  INFO 536 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2155 ms
+2026-04-05T22:52:52.862+08:00  INFO 536 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T22:52:52.914+08:00  INFO 536 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T22:52:52.947+08:00  INFO 536 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T22:52:53.218+08:00  INFO 536 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T22:52:53.247+08:00  INFO 536 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T22:52:53.737+08:00  INFO 536 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 9d1ccc3a-6687-4a6b-a6a6-235f83747415
+2026-04-05T22:52:53.740+08:00  INFO 536 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T22:52:53.906+08:00  WARN 536 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T22:52:53.934+08:00  INFO 536 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T22:52:54.662+08:00  INFO 536 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T22:52:55.342+08:00  INFO 536 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T22:52:55.968+08:00  WARN 536 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T22:52:56.306+08:00  WARN 536 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d6977545-9fe8-4209-8e5d-23ab41f2fec1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T22:52:56.316+08:00  INFO 536 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T22:52:56.849+08:00  INFO 536 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T22:52:56.890+08:00  INFO 536 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T22:52:56.899+08:00  INFO 536 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 7.035 seconds (process running for 7.511)
+2026-04-05T22:52:56.902+08:00  WARN 536 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T22:52:56.903+08:00  WARN 536 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T22:53:15.095+08:00  INFO 536 --- [BankingCardClient] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-05T22:53:15.096+08:00  INFO 536 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-05T22:53:15.098+08:00  INFO 536 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-04-05T22:53:16.361+08:00  INFO 536 --- [BankingCardClient] [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 614 ms
+2026-04-05T22:54:12.331+08:00  INFO 536 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T22:54:12.462+08:00  INFO 536 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T22:54:12.462+08:00  INFO 536 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T22:54:12.475+08:00  INFO 536 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T22:54:12.480+08:00  INFO 536 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-05T22:54:15.777+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Starting ClientApplication using Java 17.0.15 with PID 3416 (D:\workspace\client\target\classes started by USER in D:\workspace\client)
+2026-04-05T22:54:15.781+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-05T22:54:15.844+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-05T22:54:15.844+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-05T22:54:16.730+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-05T22:54:16.794+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2026-04-05T22:54:17.698+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-05T22:54:17.712+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-05T22:54:17.714+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-04-05T22:54:17.768+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-05T22:54:17.768+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1923 ms
+2026-04-05T22:54:18.052+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-05T22:54:18.105+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-04-05T22:54:18.135+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-05T22:54:18.418+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-05T22:54:18.452+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-05T22:54:18.922+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 18c216a8-2cd4-4eff-8d84-28eaf9843b8e
+2026-04-05T22:54:18.927+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-05T22:54:19.057+08:00  WARN 3416 --- [BankingCardClient] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-05T22:54:19.084+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-05T22:54:19.876+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-05T22:54:20.576+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T22:54:21.280+08:00  WARN 3416 --- [BankingCardClient] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-05T22:54:21.600+08:00  WARN 3416 --- [BankingCardClient] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 94e47e9a-a69b-45aa-9b0f-2c1df8fcd74a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-05T22:54:21.615+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-05T22:54:22.162+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-05T22:54:22.207+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-05T22:54:22.219+08:00  INFO 3416 --- [BankingCardClient] [restartedMain] c.e.c.client.ClientApplication           : Started ClientApplication in 6.984 seconds (process running for 7.466)
+2026-04-05T22:54:22.221+08:00  WARN 3416 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-05T22:54:22.222+08:00  WARN 3416 --- [BankingCardClient] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-05T22:54:26.196+08:00  INFO 3416 --- [BankingCardClient] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-05T22:54:26.197+08:00  INFO 3416 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-05T22:54:26.200+08:00  INFO 3416 --- [BankingCardClient] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-04-05T22:54:26.228+08:00  WARN 3416 --- [BankingCardClient] [http-nio-8080-exec-1] AOP_BUSINESS_LOG                         : 🚫 SECURITY: Blocked unauthorized request to /swagger-ui/index.html
+2026-04-05T22:54:26.304+08:00  WARN 3416 --- [BankingCardClient] [http-nio-8080-exec-2] AOP_BUSINESS_LOG                         : 🚫 SECURITY: Blocked unauthorized request to /swagger-ui/swagger-ui.css
+2026-04-05T22:54:26.304+08:00  WARN 3416 --- [BankingCardClient] [http-nio-8080-exec-3] AOP_BUSINESS_LOG                         : 🚫 SECURITY: Blocked unauthorized request to /swagger-ui/index.css
+2026-04-05T22:54:26.305+08:00  WARN 3416 --- [BankingCardClient] [http-nio-8080-exec-4] AOP_BUSINESS_LOG                         : 🚫 SECURITY: Blocked unauthorized request to /swagger-ui/swagger-ui-bundle.js
+2026-04-05T22:54:26.306+08:00  WARN 3416 --- [BankingCardClient] [http-nio-8080-exec-6] AOP_BUSINESS_LOG                         : 🚫 SECURITY: Blocked unauthorized request to /swagger-ui/swagger-initializer.js
+2026-04-05T22:54:26.306+08:00  WARN 3416 --- [BankingCardClient] [http-nio-8080-exec-5] AOP_BUSINESS_LOG                         : 🚫 SECURITY: Blocked unauthorized request to /swagger-ui/swagger-ui-standalone-preset.js
+2026-04-05T22:54:26.511+08:00  WARN 3416 --- [BankingCardClient] [http-nio-8080-exec-7] AOP_BUSINESS_LOG                         : 🚫 SECURITY: Blocked unauthorized request to /swagger-ui/favicon-16x16.png
+2026-04-05T22:54:26.528+08:00  WARN 3416 --- [BankingCardClient] [http-nio-8080-exec-10] AOP_BUSINESS_LOG                         : 🚫 SECURITY: Blocked unauthorized request to /v3/api-docs/swagger-config
+2026-04-05T22:54:26.610+08:00  WARN 3416 --- [BankingCardClient] [http-nio-8080-exec-9] AOP_BUSINESS_LOG                         : 🚫 SECURITY: Blocked unauthorized request to /v3/api-docs
+2026-04-05T22:54:27.221+08:00  INFO 3416 --- [BankingCardClient] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 591 ms
+2026-04-05T22:54:31.470+08:00  WARN 3416 --- [BankingCardClient] [http-nio-8080-exec-8] AOP_BUSINESS_LOG                         : 🚫 SECURITY: Blocked unauthorized request to /api/v1/users
+2026-04-05T23:04:28.636+08:00  INFO 3416 --- [BankingCardClient] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-05T23:04:28.779+08:00  INFO 3416 --- [BankingCardClient] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-04-05T23:04:28.784+08:00  INFO 3416 --- [BankingCardClient] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-05T23:04:28.789+08:00  INFO 3416 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-05T23:04:28.795+08:00  INFO 3416 --- [BankingCardClient] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
