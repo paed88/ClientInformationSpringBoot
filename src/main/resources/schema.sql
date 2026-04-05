@@ -1,0 +1,20 @@
+CREATE TABLE user_information (
+    id BIGINT IDENTITY(1,1) PRIMARY KEY,
+    title NVARCHAR(10),
+    full_name NVARCHAR(255) NOT NULL,
+    gender NVARCHAR(10),
+    id_type NVARCHAR(50),
+    id_number NVARCHAR(50) UNIQUE,
+    nationality NVARCHAR(100),
+    email_address NVARCHAR(255) NOT NULL UNIQUE,
+    home_address NVARCHAR(MAX),
+    postcode NVARCHAR(10),
+    district NVARCHAR(100),
+    state NVARCHAR(100),
+    country NVARCHAR(100),
+    mobile_number NVARCHAR(20),
+    created_at DATETIME2 DEFAULT GETDATE(),
+    created_by BIGINT,
+    updated_at DATETIME2 DEFAULT GETDATE(),
+    updated_by BIGINT
+);
